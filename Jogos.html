@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e1e1e, #2b2b2b);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffd5;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #aaa;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #00ffd5;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      border-bottom: 2px solid #00ffd5;
+      display: inline-block;
+    }
+    .Buttons:hover{
+        transform: translateY(5px);
+    }
+    .project {
+      background: #1c1c1c;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-left: 4px solid #00ffd5;
+      transition: transform 0.3s;
+    }
+
+    .project:hover {
+      transform: translateX(5px);
+    }
+
+    .project h3 {
+      color: #ffffff;
+    }
+
+    .project p {
+      color: #ccc;
+    }
+    .game{
+      text-align: center;
+      background-color: #2b2b2b;
+      border-radius: 5px;
+    }
+    .logo{
+      display: flex;
+      margin-top: 10px;
+      margin-left: 10px;
+      border-radius: 20px;
+    }
+    .screnshot{
+      border-radius: 20px;
+      margin: 10px;
+    }
+    .video{
+      margin: auto;
+      margin-bottom: 10px;
+      display: flex;
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #1e1e1e;
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Conteudo</h1>
+  </header>
+  <div style="display: flex; gap: 10px; margin-top: 20px; margin-left: 5%;">
+  <a href="index.html"><button style="padding: 10px 50px; background-color: #00ffd5; border: none; color: #000; cursor: pointer; border-radius: 5px;" class="Buttons">Voltar</button></a>
+</div>
+  <section class="section">
+    <h2>Projetos</h2>
+
+    <div class="project">
+      <img src="source/cock/logo.png" width="100" alt="logo" class="logo">
+      <h3>Cute Cockatiel </h3>
+      <p>Jogo baseado em Flappy bird, desenvolvido totalmente dentro da Unity com Programação em C#.</p>
+    </div>
+
+    <div class="game">
+      <img src="source/cock/1.png" alt="screnshot" class="screnshot">
+      <img src="source/cock/2.png" alt="screnshot" class="screnshot">
+      <img src="source/cock/3.png" alt="screnshot" class="screnshot">
+      <a href="source/apk/1.14.apk" download="Cute Cockatiel"><button style="padding: 10px 50px; background-color: #00ffd5; border: none; color: #000; cursor: pointer; border-radius: 5px;" class="Buttons">BAIXAR</button></a>
+     </div>
+
+    <div class="project">
+      <img src="source/lover/9PZ1r2.png" width="100" alt="logo" class="logo">
+      <h3>Lover's</h3>
+      <p>Jogo adulto de verdade ou desafio, contruido na unity com programação em c#</p>
+    </div>
+    <div class="game">
+      <img src="source/lover/16utou.png" width="250" alt="screnshot" class="screnshot">
+      <img src="source/lover/4jxJJD.png" width="250"alt="screnshot" class="screnshot">
+      <img src="source/lover/pkWjNQ.png" width="250"alt="screnshot" class="screnshot">
+      <a href="source/apk/1.30.apk" download="Lover's"><button style="padding: 10px 50px; background-color: #00ffd5; border: none; color: #000; cursor: pointer; border-radius: 5px;" class="Buttons">BAIXAR</button></a>
+     </div>
+    <div class="project">
+      <img src="source/space/ZjyhA4.png" width="100" alt="logo" class="logo">
+      <h3>Space Threat</h3>
+      <p>Salve o universo, feito na unity com linguagem C#</p>
+    </div>
+    <div class="game">
+      <video src="source/videos/Vídeo do WhatsApp de 2025-06-10 à(s) 13.48.46_815ee0bd.mp4" width="640" height="360" controls class="video" loop></video>
+      <a href="source/apk/1.00.apk" download="Space Threat"><button style="padding: 10px 50px; background-color: #00ffd5; border: none; color: #000; cursor: pointer; border-radius: 5px;" class="Buttons">BAIXAR</button></a>
+     </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Cauan Elias. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
